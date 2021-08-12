@@ -14,7 +14,7 @@ const Home = () => {
     Axios.get("http://localhost:3001/people").then((response) => {
       setEmployeeList(response.data);
     })
-  },[]);
+  },[employeeList]);
 
 
   return (
