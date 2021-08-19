@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: docker-compose-react-app
+    build: .
+    ports:
+      - "3001:3000"
